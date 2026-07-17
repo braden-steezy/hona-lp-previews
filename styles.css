@@ -105,8 +105,10 @@
 .comp-us{background:linear-gradient(160deg,var(--green),var(--green-darkest));color:#fff}
 .comp .lbl{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;opacity:.7;margin-bottom:6px}
 .comp-us .lbl{opacity:.85;color:var(--lime)}
-.comp .big{font-family:var(--serif);font-weight:800;font-size:52px;line-height:1}
+.comp .big{font-family:var(--serif);font-weight:800;font-size:52px;line-height:1;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .comp-them .big{color:var(--ink-2)} .comp-us .big{color:#fff}
+.comp .unit{font-family:var(--sans);font-weight:700;font-size:15px;letter-spacing:.01em;line-height:1.1}
+.comp-them .unit{color:var(--muted)} .comp-us .unit{color:#d6e7e2}
 .comp .cap{font-size:13px;margin-top:8px}.comp-them .cap{color:var(--muted)}.comp-us .cap{color:#d6e7e2}
 
 /* ingredient chips */
