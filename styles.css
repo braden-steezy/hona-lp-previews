@@ -115,6 +115,8 @@
 .ing img{width:64px;height:64px;border-radius:50%;margin:0 auto 10px;object-fit:cover}
 .ing .nm{font-weight:700;font-size:13.5px;color:var(--green-deep)}
 .ing .ds{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.35}
+.ing .badge{width:64px;height:64px;border-radius:50%;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--green),var(--green-darkest));color:#fff}
+.ing .badge svg{width:34px;height:34px}
 
 /* benefits */
 .bens{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
